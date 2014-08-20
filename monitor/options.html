@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>监控状态</title>
+    <!--<link href="style.css" rel="stylesheet" type="text/css">-->
+    <script src="options.js"></script>
+	<script src="jquery-1.11.0.min.js"></script>
+  </head>
+  <body>
+    <h1>
+      options
+    </h1>
+    <form id="options">
+	  <p>
+		<label>频率</label><br/>
+        <input type="text" id="frequency">
+	  </p>
+	  <p>
+	    <label>输入需要的ip或域名(多个用","隔开):<label><br/>
+        <textarea id="sites" style="width:300px;height:150px">
+	    </textarea>
+	  </p>
+	  <p>
+		<label>规则:<label><br/>
+        <textarea id="rules" style="width:300px;height:150px">
+	    </textarea>
+	  </p>
+	  <button id='save_options'>Save</button>
+    </form>
+  </body>
+</html>
